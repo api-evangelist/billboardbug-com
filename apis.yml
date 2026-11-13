@@ -1,0 +1,28 @@
+aid: billboardbug-com
+name: BillboardBug
+description: 'BillboardBug is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/billboardbug-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-12'
+modified: '2026-11-12'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://billboardbug.com
+- type: Documentation
+  url: https://east-us-api.billboardbug.com/public-api/docs
+x-submission-notes: GPS-anchored AR deals/posts API; OpenAPI 3.0.4 at {east-us,central-pl,central-in}-api.billboardbug.com/public-api/spec
+x-submission-probe: root 200, invented 404; east-us-api /public-api/docs 200, /public-api/spec 200 json
+  50KB, invented 404; healthy (contact is a grokbot relay address)
