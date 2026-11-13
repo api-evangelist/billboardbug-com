@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BillboardBug is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://billboardbug.com
+BillboardBug provides a local digital billboard platform that enables small businesses to create location‑based advertising campaigns instantly. Users can design billboards with ready‑made templates, publish them to real‑world zones, and reach nearby customers in real time via the mobile app. The service includes credit‑based pricing, day‑pass and monthly plans, and a public API for programmatic billboard creation and deal posting across North America, Europe and Asia.
+
+**Areas:** Advertising · LocalBusiness · API · MobileApp · SmallBusiness
+
+## BillboardBug on APIs.io
+
+Everything profiled for BillboardBug is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/billboardbug-com/](https://apis.io/providers/billboardbug-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [BillboardBug AI API](https://apis.io/apis/billboardbug-com/billboardbug-com-ai-api/) — The Ai API from BillboardBug — 1 operation(s) for ai.
+- [BillboardBug Blob API](https://apis.io/apis/billboardbug-com/billboardbug-com-blob-api/) — The Blob API from BillboardBug — 1 operation(s) for blob.
+- [BillboardBug Business API](https://apis.io/apis/billboardbug-com/billboardbug-com-business-api/) — The Business API from BillboardBug — 6 operation(s) for business.
+- [BillboardBug Global Config API](https://apis.io/apis/billboardbug-com/billboardbug-com-globalconfig-api/) — The GlobalConfig API from BillboardBug — 1 operation(s) for globalconfig.
+- [BillboardBug Post API](https://apis.io/apis/billboardbug-com/billboardbug-com-post-api/) — The Post API from BillboardBug — 2 operation(s) for post.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [BillboardBug Agentic Access](https://apis.io/agentic-access/billboardbug-com/billboardbug-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AiImageRequest](https://apis.io/schemas/billboardbug-com/billboardbug-com-ai-image-request/)
+- [DealResponse](https://apis.io/schemas/billboardbug-com/billboardbug-com-deal-response/)
+- [DealResponseDetails](https://apis.io/schemas/billboardbug-com/billboardbug-com-deal-response-details/)
+- [GlobalConfigResponse](https://apis.io/schemas/billboardbug-com/billboardbug-com-global-config-response/)
+- [PostRequest](https://apis.io/schemas/billboardbug-com/billboardbug-com-post-request/)
+- [QuickUpdateDealRequest](https://apis.io/schemas/billboardbug-com/billboardbug-com-quick-update-deal-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Billboardbug Com Context](https://apis.io/jsonld/billboardbug-com/billboardbug-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [BillboardBug API Rules](https://apis.io/rules/billboardbug-com/billboardbug-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [BillboardBug Authentication](https://apis.io/security/billboardbug-com/billboardbug-com-authentication/)
+- [BillboardBug Domain Security](https://apis.io/security/billboardbug-com/billboardbug-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://billboardbug.com)
+- [Documentation](https://east-us-api.billboardbug.com/public-api/docs)
+- [API reference](https://east-us-api.billboardbug.com/public-api/docs/)
+- [Terms of service](https://app.billboardbug.com/terms)
+- [Privacy policy](https://app.billboardbug.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 40.7** — developing · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 54.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 30.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/billboardbug-com/](https://apis.io/providers/billboardbug-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BillboardBug: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/billboardbug-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
